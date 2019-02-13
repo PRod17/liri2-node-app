@@ -130,9 +130,9 @@ function command() {
             // Then split it by commas (to make it more readable)
             var dataArr = data.split(",");
             action = dataArr[0];
-            console.log(action);
+            
             value = dataArr[1];
-            console.log(value);
+           
 
             // We will then re-display the content as an array for later use.
             console.log(dataArr);
